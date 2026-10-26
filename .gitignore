@@ -1,0 +1,35 @@
+# Secrets and environment variables
+.env
+.env.*
+*.env
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments & package managers
+.venv/
+venv/
+ENV/
+.uv/
+.uv-cache/
+.uv-python/
+
+# Testing & caching
+.pytest_cache/
+.coverage
+htmlcov/
+.cache/
+
+# IDE & Editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Large temporary debug artifacts
+debug_visual_artifacts/
+output/test_preprocessed/
+output/test_run/

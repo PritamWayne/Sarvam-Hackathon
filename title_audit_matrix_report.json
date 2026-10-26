@@ -1,0 +1,442 @@
+{
+  "audit_id": "TA-20261026-222102",
+  "timestamp": "2026-10-26 22:21:02",
+  "engine_version": "Sarvam-105B Title Audit Engine v1.0",
+  "jurisdiction": {
+    "state": "Uttar Pradesh",
+    "district": "Meerut",
+    "tehsil": "Mawana",
+    "village": "Hastinapur"
+  },
+  "khasra_numbers": [
+    "452/1",
+    "452/2"
+  ],
+  "total_plot_area_raw": "12 Bigha 0 Biswa",
+  "total_plot_area_sq_m": 30351.42,
+  "claimant_id": "P06",
+  "claimant_name": "Amit Kumar",
+  "claimant_theoretical_share": "1/9",
+  "claimant_recorded_share": "0 (Omitted)",
+  "claimant_deprived_area_sq_m": 3372.38,
+  "claimant_deprived_area_acres": 0.8333,
+  "statutory_heir_shares": [
+    {
+      "person_id": "P01",
+      "name": "Ram Lal",
+      "relationship_to_deceased": "Ancestral Patriarch / Original Titleholder",
+      "heir_class": "Class I Legal Heir",
+      "statutory_fraction_str": "0",
+      "statutory_fraction_val": 0.0,
+      "theoretical_area_sq_m": 0.0,
+      "theoretical_area_acres": 0.0,
+      "recorded_share_fraction_str": null,
+      "recorded_share_fraction_val": 0.0,
+      "recorded_area_sq_m": 0.0,
+      "deprived_fraction_str": null,
+      "deprived_area_sq_m": 0.0,
+      "is_claimant": false,
+      "status": "Devolved to Heirs"
+    },
+    {
+      "person_id": "P02",
+      "name": "Suresh Kumar",
+      "relationship_to_deceased": "Son of Ram Lal",
+      "heir_class": "Class I Legal Heir",
+      "statutory_fraction_str": "0",
+      "statutory_fraction_val": 0.0,
+      "theoretical_area_sq_m": 0.0,
+      "theoretical_area_acres": 0.0,
+      "recorded_share_fraction_str": null,
+      "recorded_share_fraction_val": 0.0,
+      "recorded_area_sq_m": 0.0,
+      "deprived_fraction_str": null,
+      "deprived_area_sq_m": 0.0,
+      "is_claimant": false,
+      "status": "Devolved to Heirs"
+    },
+    {
+      "person_id": "P03",
+      "name": "Ramesh Kumar",
+      "relationship_to_deceased": "Son of Ram Lal",
+      "heir_class": "Class I Legal Heir",
+      "statutory_fraction_str": "1/3",
+      "statutory_fraction_val": 0.333333,
+      "theoretical_area_sq_m": 10117.14,
+      "theoretical_area_acres": 2.5,
+      "recorded_share_fraction_str": "1/1",
+      "recorded_share_fraction_val": 1.0,
+      "recorded_area_sq_m": 30351.42,
+      "deprived_fraction_str": "0",
+      "deprived_area_sq_m": 0.0,
+      "is_claimant": false,
+      "status": "Inflated / Surplus"
+    },
+    {
+      "person_id": "P04",
+      "name": "Kamla Devi",
+      "relationship_to_deceased": "Daughter of Ram Lal",
+      "heir_class": "Class I Legal Heir",
+      "statutory_fraction_str": "1/3",
+      "statutory_fraction_val": 0.333333,
+      "theoretical_area_sq_m": 10117.14,
+      "theoretical_area_acres": 2.5,
+      "recorded_share_fraction_str": "0",
+      "recorded_share_fraction_val": 0.0,
+      "recorded_area_sq_m": 0.0,
+      "deprived_fraction_str": "1/3",
+      "deprived_area_sq_m": 10117.14,
+      "is_claimant": false,
+      "status": "Omitted from Title"
+    },
+    {
+      "person_id": "P05",
+      "name": "Shanti Devi",
+      "relationship_to_deceased": "Widow / Spouse of Suresh Kumar",
+      "heir_class": "Class I Legal Heir",
+      "statutory_fraction_str": "1/9",
+      "statutory_fraction_val": 0.111111,
+      "theoretical_area_sq_m": 3372.38,
+      "theoretical_area_acres": 0.8333,
+      "recorded_share_fraction_str": "0",
+      "recorded_share_fraction_val": 0.0,
+      "recorded_area_sq_m": 0.0,
+      "deprived_fraction_str": "1/9",
+      "deprived_area_sq_m": 3372.38,
+      "is_claimant": false,
+      "status": "Omitted from Title"
+    },
+    {
+      "person_id": "P06",
+      "name": "Amit Kumar",
+      "relationship_to_deceased": "Son of Suresh Kumar",
+      "heir_class": "Class I Legal Heir",
+      "statutory_fraction_str": "1/9",
+      "statutory_fraction_val": 0.111111,
+      "theoretical_area_sq_m": 3372.38,
+      "theoretical_area_acres": 0.8333,
+      "recorded_share_fraction_str": "0",
+      "recorded_share_fraction_val": 0.0,
+      "recorded_area_sq_m": 0.0,
+      "deprived_fraction_str": "1/9",
+      "deprived_area_sq_m": 3372.38,
+      "is_claimant": true,
+      "status": "Omitted from Title"
+    },
+    {
+      "person_id": "P07",
+      "name": "Sunita Kumari",
+      "relationship_to_deceased": "Daughter of Suresh Kumar",
+      "heir_class": "Class I Legal Heir",
+      "statutory_fraction_str": "1/9",
+      "statutory_fraction_val": 0.111111,
+      "theoretical_area_sq_m": 3372.38,
+      "theoretical_area_acres": 0.8333,
+      "recorded_share_fraction_str": "0",
+      "recorded_share_fraction_val": 0.0,
+      "recorded_area_sq_m": 0.0,
+      "deprived_fraction_str": "1/9",
+      "deprived_area_sq_m": 3372.38,
+      "is_claimant": false,
+      "status": "Omitted from Title"
+    }
+  ],
+  "discrepancy_matrix": [
+    {
+      "defect_id": "DEF-001",
+      "title": "Omission of Legal Heir (Kamla Devi) without Registered Haq-Tyag",
+      "defect_category": "OMITTED_LEGAL_HEIR_NO_HAQ_TYAG",
+      "severity": "High",
+      "statutory_violations": [
+        "Hindu Succession Act 1956, Section 6 & 8",
+        "Registration Act 1908, Section 17(1)(b) & Section 49",
+        "Transfer of Property Act 1882, Section 9"
+      ],
+      "parties_involved": {
+        "omitted_heir": "Kamla Devi",
+        "deceased_predecessor": "Ram Lal",
+        "beneficiaries": [
+          "Suresh Kumar",
+          "Ramesh Kumar"
+        ]
+      },
+      "theoretical_share_str": "1/3",
+      "recorded_share_str": "0 (Omitted)",
+      "deprived_share_str": "1/3",
+      "deprived_area_sq_m": 10117.14,
+      "deprived_area_acres": 2.5,
+      "document_citation": "INT-204, Line: 'Sanctioned in favour of Suresh & Ramesh sons of Ram Lal on oral statement of Patwari.'",
+      "bounding_box": {
+        "ymin": 115.0,
+        "xmin": 42.0,
+        "ymax": 185.0,
+        "xmax": 540.0
+      },
+      "forensic_narrative": "FATAL SUCCESSION DEFECT: Legal heir 'Kamla Devi' (entitled under Hindu Succession Act) was omitted from Inheritance Mutation No. INT-204 (1996-05-14) sanctioned on the demise of 'Ram Lal'. No registered Relinquishment Deed (Haq-Tyag) was executed or registered under Section 17(1)(b) of the Registration Act, 1908. An oral relinquishment or exclusion before the revenue officer is void ab initio (Yellapu Uma Maheswari v. Buddha Jagadheeswararao, (2015) 16 SCC 787).",
+      "actionable_remedy": "File Statutory Revenue Appeal under State Land Revenue Act to set aside Mutation No. INT-204. Seek immediate correction of Jamabandi entries to restore Kamla Devi's lawful share."
+    },
+    {
+      "defect_id": "DEF-002",
+      "title": "Omission of Legal Heir (Amit Kumar) without Registered Haq-Tyag",
+      "defect_category": "OMITTED_LEGAL_HEIR_NO_HAQ_TYAG",
+      "severity": "Critical",
+      "statutory_violations": [
+        "Hindu Succession Act 1956, Section 6 & 8",
+        "Registration Act 1908, Section 17(1)(b) & Section 49",
+        "Transfer of Property Act 1882, Section 9"
+      ],
+      "parties_involved": {
+        "omitted_heir": "Amit Kumar",
+        "deceased_predecessor": "Suresh Kumar",
+        "beneficiaries": [
+          "Ramesh Kumar"
+        ]
+      },
+      "theoretical_share_str": "1/9",
+      "recorded_share_str": "0 (Omitted)",
+      "deprived_share_str": "1/9",
+      "deprived_area_sq_m": 3372.38,
+      "deprived_area_acres": 0.8333,
+      "document_citation": "INT-389, Line: 'Transferred to Ramesh Kumar brother of deceased; minor children not represented.'",
+      "bounding_box": {
+        "ymin": 225.0,
+        "xmin": 45.0,
+        "ymax": 295.0,
+        "xmax": 550.0
+      },
+      "forensic_narrative": "FATAL SUCCESSION DEFECT: Legal heir 'Amit Kumar' (entitled under Hindu Succession Act) was omitted from Inheritance Mutation No. INT-389 (2014-08-20) sanctioned on the demise of 'Suresh Kumar'. No registered Relinquishment Deed (Haq-Tyag) was executed or registered under Section 17(1)(b) of the Registration Act, 1908. An oral relinquishment or exclusion before the revenue officer is void ab initio (Yellapu Uma Maheswari v. Buddha Jagadheeswararao, (2015) 16 SCC 787).",
+      "actionable_remedy": "File Statutory Revenue Appeal under State Land Revenue Act to set aside Mutation No. INT-389. Seek immediate correction of Jamabandi entries to restore Amit Kumar's lawful share."
+    },
+    {
+      "defect_id": "DEF-003",
+      "title": "Omission of Legal Heir (Shanti Devi) without Registered Haq-Tyag",
+      "defect_category": "OMITTED_LEGAL_HEIR_NO_HAQ_TYAG",
+      "severity": "High",
+      "statutory_violations": [
+        "Hindu Succession Act 1956, Section 6 & 8",
+        "Registration Act 1908, Section 17(1)(b) & Section 49",
+        "Transfer of Property Act 1882, Section 9"
+      ],
+      "parties_involved": {
+        "omitted_heir": "Shanti Devi",
+        "deceased_predecessor": "Suresh Kumar",
+        "beneficiaries": [
+          "Ramesh Kumar"
+        ]
+      },
+      "theoretical_share_str": "1/9",
+      "recorded_share_str": "0 (Omitted)",
+      "deprived_share_str": "1/9",
+      "deprived_area_sq_m": 3372.38,
+      "deprived_area_acres": 0.8333,
+      "document_citation": "INT-389, Line: 'Transferred to Ramesh Kumar brother of deceased; minor children not represented.'",
+      "bounding_box": {
+        "ymin": 225.0,
+        "xmin": 45.0,
+        "ymax": 295.0,
+        "xmax": 550.0
+      },
+      "forensic_narrative": "FATAL SUCCESSION DEFECT: Legal heir 'Shanti Devi' (entitled under Hindu Succession Act) was omitted from Inheritance Mutation No. INT-389 (2014-08-20) sanctioned on the demise of 'Suresh Kumar'. No registered Relinquishment Deed (Haq-Tyag) was executed or registered under Section 17(1)(b) of the Registration Act, 1908. An oral relinquishment or exclusion before the revenue officer is void ab initio (Yellapu Uma Maheswari v. Buddha Jagadheeswararao, (2015) 16 SCC 787).",
+      "actionable_remedy": "File Statutory Revenue Appeal under State Land Revenue Act to set aside Mutation No. INT-389. Seek immediate correction of Jamabandi entries to restore Shanti Devi's lawful share."
+    },
+    {
+      "defect_id": "DEF-004",
+      "title": "Omission of Legal Heir (Sunita Kumari) without Registered Haq-Tyag",
+      "defect_category": "OMITTED_LEGAL_HEIR_NO_HAQ_TYAG",
+      "severity": "High",
+      "statutory_violations": [
+        "Hindu Succession Act 1956, Section 6 & 8",
+        "Registration Act 1908, Section 17(1)(b) & Section 49",
+        "Transfer of Property Act 1882, Section 9"
+      ],
+      "parties_involved": {
+        "omitted_heir": "Sunita Kumari",
+        "deceased_predecessor": "Suresh Kumar",
+        "beneficiaries": [
+          "Ramesh Kumar"
+        ]
+      },
+      "theoretical_share_str": "1/9",
+      "recorded_share_str": "0 (Omitted)",
+      "deprived_share_str": "1/9",
+      "deprived_area_sq_m": 3372.38,
+      "deprived_area_acres": 0.8333,
+      "document_citation": "INT-389, Line: 'Transferred to Ramesh Kumar brother of deceased; minor children not represented.'",
+      "bounding_box": {
+        "ymin": 225.0,
+        "xmin": 45.0,
+        "ymax": 295.0,
+        "xmax": 550.0
+      },
+      "forensic_narrative": "FATAL SUCCESSION DEFECT: Legal heir 'Sunita Kumari' (entitled under Hindu Succession Act) was omitted from Inheritance Mutation No. INT-389 (2014-08-20) sanctioned on the demise of 'Suresh Kumar'. No registered Relinquishment Deed (Haq-Tyag) was executed or registered under Section 17(1)(b) of the Registration Act, 1908. An oral relinquishment or exclusion before the revenue officer is void ab initio (Yellapu Uma Maheswari v. Buddha Jagadheeswararao, (2015) 16 SCC 787).",
+      "actionable_remedy": "File Statutory Revenue Appeal under State Land Revenue Act to set aside Mutation No. INT-389. Seek immediate correction of Jamabandi entries to restore Sunita Kumari's lawful share."
+    },
+    {
+      "defect_id": "DEF-005",
+      "title": "Unrepresented Minor Mutation (Amit Kumar, Sunita Kumari) without HMGA Sec 8 Sanction",
+      "defect_category": "UNREPRESENTED_MINOR_MUTATION",
+      "severity": "Critical",
+      "statutory_violations": [
+        "Hindu Minority and Guardianship Act 1956, Section 6 & 8(2)",
+        "Indian Majority Act 1875, Section 3",
+        "Civil Procedure Code 1908, Order XXXII Rules 1-3"
+      ],
+      "parties_involved": {
+        "minors": [
+          "Amit Kumar",
+          "Sunita Kumari"
+        ],
+        "transferor_or_applicant": [
+          "Suresh Kumar (Deceased)"
+        ],
+        "beneficiaries": [
+          "Ramesh Kumar"
+        ]
+      },
+      "theoretical_share_str": null,
+      "recorded_share_str": null,
+      "deprived_share_str": null,
+      "deprived_area_sq_m": null,
+      "deprived_area_acres": null,
+      "document_citation": "Mutation No. INT-389 (2014-08-20), Column 8/11",
+      "bounding_box": {
+        "ymin": 225.0,
+        "xmin": 45.0,
+        "ymax": 295.0,
+        "xmax": 550.0
+      },
+      "forensic_narrative": "STATUTORY MINORITY IMPAIRMENT: Mutation No. INT-389 (2014-08-20) affected the proprietary estate of minor(s) [Amit Kumar, Sunita Kumari] without lawful guardian representation or without mandatory prior sanction from the District Court under Section 8(2) of the Hindu Minority and Guardianship Act, 1956. Any transaction or mutation adverse to a minor without court approval is voidable at the minor's option under Section 8(3) HMGA and void ab initio if completely unrepresented.",
+      "actionable_remedy": "Institute suit for Declaration and Invalidation of Mutation No. INT-389 under Section 8(3) of the Hindu Minority and Guardianship Act, 1956 read with Section 31 of the Specific Relief Act, 1963. Limitation commences from the date of attaining majority."
+    },
+    {
+      "defect_id": "DEF-006",
+      "title": "Total Absence of Legal Heir 'Kamla Devi' from Current Record of Rights",
+      "defect_category": "CO_SHARER_FRACTIONAL_DILUTION",
+      "severity": "High",
+      "statutory_violations": [
+        "Hindu Succession Act 1956, Section 8 & 10",
+        "Constitution of India, Article 300A (Right to Property)"
+      ],
+      "parties_involved": {
+        "omitted_heir": "Kamla Devi",
+        "co_sharers_recorded": [
+          "Ramesh Kumar"
+        ]
+      },
+      "theoretical_share_str": "1/3",
+      "recorded_share_str": "0 (Absent)",
+      "deprived_share_str": "1/3",
+      "deprived_area_sq_m": 10117.14,
+      "deprived_area_acres": 2.5,
+      "document_citation": "Khatauni / Jamabandi (1425 Fasli (2018-2019)), Khatauni/Khewat Khatauni No. 84",
+      "bounding_box": {
+        "ymin": 40.0,
+        "xmin": 30.0,
+        "ymax": 100.0,
+        "xmax": 570.0
+      },
+      "forensic_narrative": "TITLE REGISTER OMISSION: Statutory Class I heir 'Kamla Devi' (Daughter of Ram Lal) is totally absent from the ownership column of official Khatauni / Jamabandi (1425 Fasli (2018-2019)). Heir's theoretical entitlement is 1/3 (10,117.14 m² / 2.5000 Acres). Omission creates an actionable cloud on title.",
+      "actionable_remedy": "Submit Application for Correction of Revenue Entries (Tarseem-e-Record / Fard-Badar) under Section 38 of the UP Revenue Code, 2006 / Section 37 Punjab Land Revenue Act. Concurrently institute a Civil Suit for Partition & Separate Possession."
+    },
+    {
+      "defect_id": "DEF-007",
+      "title": "Total Absence of Legal Heir 'Shanti Devi' from Current Record of Rights",
+      "defect_category": "CO_SHARER_FRACTIONAL_DILUTION",
+      "severity": "High",
+      "statutory_violations": [
+        "Hindu Succession Act 1956, Section 8 & 10",
+        "Constitution of India, Article 300A (Right to Property)"
+      ],
+      "parties_involved": {
+        "omitted_heir": "Shanti Devi",
+        "co_sharers_recorded": [
+          "Ramesh Kumar"
+        ]
+      },
+      "theoretical_share_str": "1/9",
+      "recorded_share_str": "0 (Absent)",
+      "deprived_share_str": "1/9",
+      "deprived_area_sq_m": 3372.38,
+      "deprived_area_acres": 0.8333,
+      "document_citation": "Khatauni / Jamabandi (1425 Fasli (2018-2019)), Khatauni/Khewat Khatauni No. 84",
+      "bounding_box": {
+        "ymin": 40.0,
+        "xmin": 30.0,
+        "ymax": 100.0,
+        "xmax": 570.0
+      },
+      "forensic_narrative": "TITLE REGISTER OMISSION: Statutory Class I heir 'Shanti Devi' (Widow / Spouse of Suresh Kumar) is totally absent from the ownership column of official Khatauni / Jamabandi (1425 Fasli (2018-2019)). Heir's theoretical entitlement is 1/9 (3,372.38 m² / 0.8333 Acres). Omission creates an actionable cloud on title.",
+      "actionable_remedy": "Submit Application for Correction of Revenue Entries (Tarseem-e-Record / Fard-Badar) under Section 38 of the UP Revenue Code, 2006 / Section 37 Punjab Land Revenue Act. Concurrently institute a Civil Suit for Partition & Separate Possession."
+    },
+    {
+      "defect_id": "DEF-008",
+      "title": "Total Absence of Legal Heir 'Amit Kumar' from Current Record of Rights",
+      "defect_category": "CO_SHARER_FRACTIONAL_DILUTION",
+      "severity": "Critical",
+      "statutory_violations": [
+        "Hindu Succession Act 1956, Section 8 & 10",
+        "Constitution of India, Article 300A (Right to Property)"
+      ],
+      "parties_involved": {
+        "omitted_heir": "Amit Kumar",
+        "co_sharers_recorded": [
+          "Ramesh Kumar"
+        ]
+      },
+      "theoretical_share_str": "1/9",
+      "recorded_share_str": "0 (Absent)",
+      "deprived_share_str": "1/9",
+      "deprived_area_sq_m": 3372.38,
+      "deprived_area_acres": 0.8333,
+      "document_citation": "Khatauni / Jamabandi (1425 Fasli (2018-2019)), Khatauni/Khewat Khatauni No. 84",
+      "bounding_box": {
+        "ymin": 40.0,
+        "xmin": 30.0,
+        "ymax": 100.0,
+        "xmax": 570.0
+      },
+      "forensic_narrative": "TITLE REGISTER OMISSION: Statutory Class I heir 'Amit Kumar' (Son of Suresh Kumar) is totally absent from the ownership column of official Khatauni / Jamabandi (1425 Fasli (2018-2019)). Heir's theoretical entitlement is 1/9 (3,372.38 m² / 0.8333 Acres). Omission creates an actionable cloud on title.",
+      "actionable_remedy": "Submit Application for Correction of Revenue Entries (Tarseem-e-Record / Fard-Badar) under Section 38 of the UP Revenue Code, 2006 / Section 37 Punjab Land Revenue Act. Concurrently institute a Civil Suit for Partition & Separate Possession."
+    },
+    {
+      "defect_id": "DEF-009",
+      "title": "Total Absence of Legal Heir 'Sunita Kumari' from Current Record of Rights",
+      "defect_category": "CO_SHARER_FRACTIONAL_DILUTION",
+      "severity": "High",
+      "statutory_violations": [
+        "Hindu Succession Act 1956, Section 8 & 10",
+        "Constitution of India, Article 300A (Right to Property)"
+      ],
+      "parties_involved": {
+        "omitted_heir": "Sunita Kumari",
+        "co_sharers_recorded": [
+          "Ramesh Kumar"
+        ]
+      },
+      "theoretical_share_str": "1/9",
+      "recorded_share_str": "0 (Absent)",
+      "deprived_share_str": "1/9",
+      "deprived_area_sq_m": 3372.38,
+      "deprived_area_acres": 0.8333,
+      "document_citation": "Khatauni / Jamabandi (1425 Fasli (2018-2019)), Khatauni/Khewat Khatauni No. 84",
+      "bounding_box": {
+        "ymin": 40.0,
+        "xmin": 30.0,
+        "ymax": 100.0,
+        "xmax": 570.0
+      },
+      "forensic_narrative": "TITLE REGISTER OMISSION: Statutory Class I heir 'Sunita Kumari' (Daughter of Suresh Kumar) is totally absent from the ownership column of official Khatauni / Jamabandi (1425 Fasli (2018-2019)). Heir's theoretical entitlement is 1/9 (3,372.38 m² / 0.8333 Acres). Omission creates an actionable cloud on title.",
+      "actionable_remedy": "Submit Application for Correction of Revenue Entries (Tarseem-e-Record / Fard-Badar) under Section 38 of the UP Revenue Code, 2006 / Section 37 Punjab Land Revenue Act. Concurrently institute a Civil Suit for Partition & Separate Possession."
+    }
+  ],
+  "overall_title_risk": "CRITICAL_TITLE_DEFECT",
+  "summary_verdict": "TITLE CLOUD DETECTED (CRITICAL): Title is fatally defective. Illegal omission of statutory heirs without registered Haq-Tyag and unauthorized over-conveyance deprived claimant 'Amit Kumar' of 1/9 share (3,372.38 m² / 0.8333 Acres).",
+  "sarvam_105b_legal_opinion": "### Sarvam-105B Title Audit Jurisprudential Opinion\n**Subject**: Title Audit & Statutory Succession Discrepancy Matrix for Khasra `452/1, 452/2`, Village `Hastinapur`.\n**Claimant**: Amit Kumar (Son of Suresh Kumar) | **Theoretical Lawful Share**: `1/9` | **Recorded Share**: `0 (Omitted)`.\n\n#### 1. Executive Title Health Summary\nThe official revenue record chain for parcel `12 Bigha 0 Biswa` in Village `Hastinapur` is infected with severe statutory infirmities. A cross-examination of the reconstructed Vanshavali against the Jamabandi and Mutation (Intiqal) history reveals that the title has been illegally diluted and fragmented in direct defiance of mandatory Indian succession and property statutes. The overall title risk is categorized as **CRITICAL / DEFECTIVE**.\n\n#### 2. Statutory Succession & Claimant Entitlement Evaluation\nUnder the **Hindu Succession Act, 1956** read with the **Hindu Succession (Amendment) Act, 2005** and the landmark Supreme Court ruling in *Vineeta Sharma v. Rakesh Sharma (2020) 9 SCC 1*, the claimant `Amit Kumar` is a statutory Class I legal heir / coparcener with an inviolable inherent entitlement of `1/9`. The omission or reduction of the claimant's share on the revenue record is *ultra vires* and legally untenable.\n\n#### 3. Forensic Defect Analysis\n**Defect #1: [HIGH] Omission of Legal Heir (Kamla Devi) without Registered Haq-Tyag** (`DefectCategory.OMITTED_LEGAL_HEIR_NO_HAQ_TYAG`)\n- **Statutory Violation**: Hindu Succession Act 1956, Section 6 & 8, Registration Act 1908, Section 17(1)(b) & Section 49, Transfer of Property Act 1882, Section 9\n- **Evidence Location**: INT-204, Line: 'Sanctioned in favour of Suresh & Ramesh sons of Ram Lal on oral statement of Patwari.' | Bounding Box: `{'ymin': 115.0, 'xmin': 42.0, 'ymax': 185.0, 'xmax': 540.0}`\n- **Substantive Finding**: FATAL SUCCESSION DEFECT: Legal heir 'Kamla Devi' (entitled under Hindu Succession Act) was omitted from Inheritance Mutation No. INT-204 (1996-05-14) sanctioned on the demise of 'Ram Lal'. No registered Relinquishment Deed (Haq-Tyag) was executed or registered under Section 17(1)(b) of the Registration Act, 1908. An oral relinquishment or exclusion before the revenue officer is void ab initio (Yellapu Uma Maheswari v. Buddha Jagadheeswararao, (2015) 16 SCC 787).\n- **Judicial Remedy**: File Statutory Revenue Appeal under State Land Revenue Act to set aside Mutation No. INT-204. Seek immediate correction of Jamabandi entries to restore Kamla Devi's lawful share.\n\n**Defect #2: [CRITICAL] Omission of Legal Heir (Amit Kumar) without Registered Haq-Tyag** (`DefectCategory.OMITTED_LEGAL_HEIR_NO_HAQ_TYAG`)\n- **Statutory Violation**: Hindu Succession Act 1956, Section 6 & 8, Registration Act 1908, Section 17(1)(b) & Section 49, Transfer of Property Act 1882, Section 9\n- **Evidence Location**: INT-389, Line: 'Transferred to Ramesh Kumar brother of deceased; minor children not represented.' | Bounding Box: `{'ymin': 225.0, 'xmin': 45.0, 'ymax': 295.0, 'xmax': 550.0}`\n- **Substantive Finding**: FATAL SUCCESSION DEFECT: Legal heir 'Amit Kumar' (entitled under Hindu Succession Act) was omitted from Inheritance Mutation No. INT-389 (2014-08-20) sanctioned on the demise of 'Suresh Kumar'. No registered Relinquishment Deed (Haq-Tyag) was executed or registered under Section 17(1)(b) of the Registration Act, 1908. An oral relinquishment or exclusion before the revenue officer is void ab initio (Yellapu Uma Maheswari v. Buddha Jagadheeswararao, (2015) 16 SCC 787).\n- **Judicial Remedy**: File Statutory Revenue Appeal under State Land Revenue Act to set aside Mutation No. INT-389. Seek immediate correction of Jamabandi entries to restore Amit Kumar's lawful share.\n\n**Defect #3: [HIGH] Omission of Legal Heir (Shanti Devi) without Registered Haq-Tyag** (`DefectCategory.OMITTED_LEGAL_HEIR_NO_HAQ_TYAG`)\n- **Statutory Violation**: Hindu Succession Act 1956, Section 6 & 8, Registration Act 1908, Section 17(1)(b) & Section 49, Transfer of Property Act 1882, Section 9\n- **Evidence Location**: INT-389, Line: 'Transferred to Ramesh Kumar brother of deceased; minor children not represented.' | Bounding Box: `{'ymin': 225.0, 'xmin': 45.0, 'ymax': 295.0, 'xmax': 550.0}`\n- **Substantive Finding**: FATAL SUCCESSION DEFECT: Legal heir 'Shanti Devi' (entitled under Hindu Succession Act) was omitted from Inheritance Mutation No. INT-389 (2014-08-20) sanctioned on the demise of 'Suresh Kumar'. No registered Relinquishment Deed (Haq-Tyag) was executed or registered under Section 17(1)(b) of the Registration Act, 1908. An oral relinquishment or exclusion before the revenue officer is void ab initio (Yellapu Uma Maheswari v. Buddha Jagadheeswararao, (2015) 16 SCC 787).\n- **Judicial Remedy**: File Statutory Revenue Appeal under State Land Revenue Act to set aside Mutation No. INT-389. Seek immediate correction of Jamabandi entries to restore Shanti Devi's lawful share.\n\n**Defect #4: [HIGH] Omission of Legal Heir (Sunita Kumari) without Registered Haq-Tyag** (`DefectCategory.OMITTED_LEGAL_HEIR_NO_HAQ_TYAG`)\n- **Statutory Violation**: Hindu Succession Act 1956, Section 6 & 8, Registration Act 1908, Section 17(1)(b) & Section 49, Transfer of Property Act 1882, Section 9\n- **Evidence Location**: INT-389, Line: 'Transferred to Ramesh Kumar brother of deceased; minor children not represented.' | Bounding Box: `{'ymin': 225.0, 'xmin': 45.0, 'ymax': 295.0, 'xmax': 550.0}`\n- **Substantive Finding**: FATAL SUCCESSION DEFECT: Legal heir 'Sunita Kumari' (entitled under Hindu Succession Act) was omitted from Inheritance Mutation No. INT-389 (2014-08-20) sanctioned on the demise of 'Suresh Kumar'. No registered Relinquishment Deed (Haq-Tyag) was executed or registered under Section 17(1)(b) of the Registration Act, 1908. An oral relinquishment or exclusion before the revenue officer is void ab initio (Yellapu Uma Maheswari v. Buddha Jagadheeswararao, (2015) 16 SCC 787).\n- **Judicial Remedy**: File Statutory Revenue Appeal under State Land Revenue Act to set aside Mutation No. INT-389. Seek immediate correction of Jamabandi entries to restore Sunita Kumari's lawful share.\n\n**Defect #5: [CRITICAL] Unrepresented Minor Mutation (Amit Kumar, Sunita Kumari) without HMGA Sec 8 Sanction** (`DefectCategory.UNREPRESENTED_MINOR_MUTATION`)\n- **Statutory Violation**: Hindu Minority and Guardianship Act 1956, Section 6 & 8(2), Indian Majority Act 1875, Section 3, Civil Procedure Code 1908, Order XXXII Rules 1-3\n- **Evidence Location**: Mutation No. INT-389 (2014-08-20), Column 8/11 | Bounding Box: `{'ymin': 225.0, 'xmin': 45.0, 'ymax': 295.0, 'xmax': 550.0}`\n- **Substantive Finding**: STATUTORY MINORITY IMPAIRMENT: Mutation No. INT-389 (2014-08-20) affected the proprietary estate of minor(s) [Amit Kumar, Sunita Kumari] without lawful guardian representation or without mandatory prior sanction from the District Court under Section 8(2) of the Hindu Minority and Guardianship Act, 1956. Any transaction or mutation adverse to a minor without court approval is voidable at the minor's option under Section 8(3) HMGA and void ab initio if completely unrepresented.\n- **Judicial Remedy**: Institute suit for Declaration and Invalidation of Mutation No. INT-389 under Section 8(3) of the Hindu Minority and Guardianship Act, 1956 read with Section 31 of the Specific Relief Act, 1963. Limitation commences from the date of attaining majority.\n\n**Defect #6: [HIGH] Total Absence of Legal Heir 'Kamla Devi' from Current Record of Rights** (`DefectCategory.CO_SHARER_FRACTIONAL_DILUTION`)\n- **Statutory Violation**: Hindu Succession Act 1956, Section 8 & 10, Constitution of India, Article 300A (Right to Property)\n- **Evidence Location**: Khatauni / Jamabandi (1425 Fasli (2018-2019)), Khatauni/Khewat Khatauni No. 84 | Bounding Box: `{'ymin': 40.0, 'xmin': 30.0, 'ymax': 100.0, 'xmax': 570.0}`\n- **Substantive Finding**: TITLE REGISTER OMISSION: Statutory Class I heir 'Kamla Devi' (Daughter of Ram Lal) is totally absent from the ownership column of official Khatauni / Jamabandi (1425 Fasli (2018-2019)). Heir's theoretical entitlement is 1/3 (10,117.14 m² / 2.5000 Acres). Omission creates an actionable cloud on title.\n- **Judicial Remedy**: Submit Application for Correction of Revenue Entries (Tarseem-e-Record / Fard-Badar) under Section 38 of the UP Revenue Code, 2006 / Section 37 Punjab Land Revenue Act. Concurrently institute a Civil Suit for Partition & Separate Possession.\n\n**Defect #7: [HIGH] Total Absence of Legal Heir 'Shanti Devi' from Current Record of Rights** (`DefectCategory.CO_SHARER_FRACTIONAL_DILUTION`)\n- **Statutory Violation**: Hindu Succession Act 1956, Section 8 & 10, Constitution of India, Article 300A (Right to Property)\n- **Evidence Location**: Khatauni / Jamabandi (1425 Fasli (2018-2019)), Khatauni/Khewat Khatauni No. 84 | Bounding Box: `{'ymin': 40.0, 'xmin': 30.0, 'ymax': 100.0, 'xmax': 570.0}`\n- **Substantive Finding**: TITLE REGISTER OMISSION: Statutory Class I heir 'Shanti Devi' (Widow / Spouse of Suresh Kumar) is totally absent from the ownership column of official Khatauni / Jamabandi (1425 Fasli (2018-2019)). Heir's theoretical entitlement is 1/9 (3,372.38 m² / 0.8333 Acres). Omission creates an actionable cloud on title.\n- **Judicial Remedy**: Submit Application for Correction of Revenue Entries (Tarseem-e-Record / Fard-Badar) under Section 38 of the UP Revenue Code, 2006 / Section 37 Punjab Land Revenue Act. Concurrently institute a Civil Suit for Partition & Separate Possession.\n\n**Defect #8: [CRITICAL] Total Absence of Legal Heir 'Amit Kumar' from Current Record of Rights** (`DefectCategory.CO_SHARER_FRACTIONAL_DILUTION`)\n- **Statutory Violation**: Hindu Succession Act 1956, Section 8 & 10, Constitution of India, Article 300A (Right to Property)\n- **Evidence Location**: Khatauni / Jamabandi (1425 Fasli (2018-2019)), Khatauni/Khewat Khatauni No. 84 | Bounding Box: `{'ymin': 40.0, 'xmin': 30.0, 'ymax': 100.0, 'xmax': 570.0}`\n- **Substantive Finding**: TITLE REGISTER OMISSION: Statutory Class I heir 'Amit Kumar' (Son of Suresh Kumar) is totally absent from the ownership column of official Khatauni / Jamabandi (1425 Fasli (2018-2019)). Heir's theoretical entitlement is 1/9 (3,372.38 m² / 0.8333 Acres). Omission creates an actionable cloud on title.\n- **Judicial Remedy**: Submit Application for Correction of Revenue Entries (Tarseem-e-Record / Fard-Badar) under Section 38 of the UP Revenue Code, 2006 / Section 37 Punjab Land Revenue Act. Concurrently institute a Civil Suit for Partition & Separate Possession.\n\n**Defect #9: [HIGH] Total Absence of Legal Heir 'Sunita Kumari' from Current Record of Rights** (`DefectCategory.CO_SHARER_FRACTIONAL_DILUTION`)\n- **Statutory Violation**: Hindu Succession Act 1956, Section 8 & 10, Constitution of India, Article 300A (Right to Property)\n- **Evidence Location**: Khatauni / Jamabandi (1425 Fasli (2018-2019)), Khatauni/Khewat Khatauni No. 84 | Bounding Box: `{'ymin': 40.0, 'xmin': 30.0, 'ymax': 100.0, 'xmax': 570.0}`\n- **Substantive Finding**: TITLE REGISTER OMISSION: Statutory Class I heir 'Sunita Kumari' (Daughter of Suresh Kumar) is totally absent from the ownership column of official Khatauni / Jamabandi (1425 Fasli (2018-2019)). Heir's theoretical entitlement is 1/9 (3,372.38 m² / 0.8333 Acres). Omission creates an actionable cloud on title.\n- **Judicial Remedy**: Submit Application for Correction of Revenue Entries (Tarseem-e-Record / Fard-Badar) under Section 38 of the UP Revenue Code, 2006 / Section 37 Punjab Land Revenue Act. Concurrently institute a Civil Suit for Partition & Separate Possession.\n\n#### 4. Actionable Judicial Strategy & Recommended Remedies\n1. **Revenue Appeal / Revision**: File an appeal under the relevant State Land Revenue Act (e.g., Sec 13 of the Punjab Land Revenue Act, 1887 or Sec 35(2) of the UP Revenue Code, 2006) to quash the impugned mutation orders as void *ab initio*.\n2. **Civil Suit for Declaration & Partition**: Institute a suit before the Senior Civil Judge / Sub-Divisional Officer seeking a Declaration of Title for claimant's theoretical share, with a consequential decree for metes-and-bounds physical partition.\n3. **Deed Cancellation**: Where third-party conveyances exceeded lawful shares, invoke Section 31 of the Specific Relief Act, 1963 to cancel the registered sale deeds to the extent of over-alienation.\n4. **Interim Injunction**: Move an urgent application under Order XXXIX Rules 1 & 2 CPC restraining the adverse parties from alienating, encumbering, or changing the nature of the suit land during pendency of litigation.",
+  "recommended_legal_roadmap": [
+    "1. **Caveat & Urgent Interim Injunction**: File caveat petitions under Section 148A CPC and seek status-quo injunction under Order XXXIX Rules 1 & 2 CPC against any further alienation of the suit Khasras.",
+    "2. **Statutory Revenue Appeal**: Challenge the fraudulent/omissive Mutation orders before the Collector/Sub-Divisional Officer under the State Land Revenue Act.",
+    "3. **Civil Suit for Partition & Declaration**: Institute a comprehensive Title Suit before the Senior Civil Judge seeking a declaration of Amit Kumar's 1/9 statutory share and physical demarcation by metes and bounds.",
+    "4. **Cancellation of Ultra-Vires Sale Deeds**: Seek decree of cancellation under Section 31 of Specific Relief Act 1963 for any conveyances executed beyond the transferors' legitimate holdings.",
+    "5. **Revenue Register Rectification**: Apply for Fard-Badar / Tarseem-e-Record to update the official Record of Rights reflecting the true Vanshavali."
+  ]
+}

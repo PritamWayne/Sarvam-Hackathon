@@ -1,0 +1,384 @@
+{
+  "$defs": {
+    "ChronologicalEvent": {
+      "properties": {
+        "event_order": {
+          "description": "Sequential chronological position",
+          "title": "Event Order",
+          "type": "integer"
+        },
+        "temporal_anchor": {
+          "description": "Stated date, year, or landmark (e.g. '1975 floods', 'father's demise in 1998')",
+          "title": "Temporal Anchor",
+          "type": "string"
+        },
+        "description": {
+          "description": "Summary of the historical/legal event",
+          "title": "Description",
+          "type": "string"
+        },
+        "actors_involved": {
+          "description": "Names or IDs of persons involved",
+          "items": {
+            "type": "string"
+          },
+          "title": "Actors Involved",
+          "type": "array"
+        }
+      },
+      "required": [
+        "event_order",
+        "temporal_anchor",
+        "description"
+      ],
+      "title": "ChronologicalEvent",
+      "type": "object"
+    },
+    "PersonNode": {
+      "properties": {
+        "person_id": {
+          "description": "Unique identifier for the individual (e.g., P01, P02)",
+          "title": "Person Id",
+          "type": "string"
+        },
+        "name": {
+          "description": "Name or recognized title in oral testimony",
+          "title": "Name",
+          "type": "string"
+        },
+        "aliases": {
+          "description": "Alternative names, nicknames or regional honorifics",
+          "items": {
+            "type": "string"
+          },
+          "title": "Aliases",
+          "type": "array"
+        },
+        "gender": {
+          "description": "Gender of the individual",
+          "enum": [
+            "male",
+            "female",
+            "other",
+            "unknown"
+          ],
+          "title": "Gender",
+          "type": "string"
+        },
+        "status": {
+          "description": "Vital status as stated in testimony",
+          "enum": [
+            "alive",
+            "deceased",
+            "unknown"
+          ],
+          "title": "Status",
+          "type": "string"
+        },
+        "generation_level": {
+          "description": "Generation level relative to ancestral head (0 = Ancestral Head, 1 = Children, etc.)",
+          "title": "Generation Level",
+          "type": "integer"
+        },
+        "date_marker": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Known approximate birth/death period or temporal anchor (e.g., 'd. circa 1995')",
+          "title": "Date Marker"
+        },
+        "is_claimant": {
+          "default": false,
+          "description": "Whether this individual is the claimant giving the testimony",
+          "title": "Is Claimant",
+          "type": "boolean"
+        },
+        "is_ancestral_head": {
+          "default": false,
+          "description": "Whether this individual is the root ancestral head (Karta/Patriarch)",
+          "title": "Is Ancestral Head",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "person_id",
+        "name",
+        "gender",
+        "status",
+        "generation_level"
+      ],
+      "title": "PersonNode",
+      "type": "object"
+    },
+    "PropertyGrievance": {
+      "properties": {
+        "disputed_asset_description": {
+          "description": "Description of the disputed ancestral land, ancestral home, khasra/survey numbers",
+          "title": "Disputed Asset Description",
+          "type": "string"
+        },
+        "location_details": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Village, Mauza, Tehsil/Taluka, District if mentioned in testimony",
+          "title": "Location Details"
+        },
+        "claimed_share": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Proportion or parcel claimed (e.g. '1/3rd share', '4 bighas in eastern plot')",
+          "title": "Claimed Share"
+        },
+        "adverse_party_ids": {
+          "description": "IDs of family members or external parties alleged to have committed the wrong",
+          "items": {
+            "type": "string"
+          },
+          "title": "Adverse Party Ids",
+          "type": "array"
+        },
+        "allegation_category": {
+          "description": "Categorization of the legal/property grievance",
+          "enum": [
+            "fraudulent_mutation",
+            "encroachment",
+            "unauthorized_sale",
+            "exclusion_from_partition",
+            "denial_of_share",
+            "forged_gift_or_will",
+            "other"
+          ],
+          "title": "Allegation Category",
+          "type": "string"
+        },
+        "grievance_narrative": {
+          "description": "Detailed description of the alleged illicit act or dispute",
+          "title": "Grievance Narrative",
+          "type": "string"
+        },
+        "relief_sought": {
+          "description": "What the claimant is demanding (e.g., revenue mutation correction, physical demarcation, share restoration)",
+          "title": "Relief Sought",
+          "type": "string"
+        }
+      },
+      "required": [
+        "disputed_asset_description",
+        "allegation_category",
+        "grievance_narrative",
+        "relief_sought"
+      ],
+      "title": "PropertyGrievance",
+      "type": "object"
+    },
+    "RelationshipEdge": {
+      "properties": {
+        "source_id": {
+          "description": "Source person ID (e.g., parent, older sibling, spouse)",
+          "title": "Source Id",
+          "type": "string"
+        },
+        "target_id": {
+          "description": "Target person ID",
+          "title": "Target Id",
+          "type": "string"
+        },
+        "relation_type": {
+          "description": "Standardized kinship relationship type",
+          "enum": [
+            "parent_of",
+            "child_of",
+            "spouse_of",
+            "sibling_of",
+            "half_sibling_of",
+            "adopted_child_of"
+          ],
+          "title": "Relation Type",
+          "type": "string"
+        },
+        "notes": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Contextual note (e.g., 'eldest son', 'second wife')",
+          "title": "Notes"
+        }
+      },
+      "required": [
+        "source_id",
+        "target_id",
+        "relation_type"
+      ],
+      "title": "RelationshipEdge",
+      "type": "object"
+    },
+    "SuccessionStep": {
+      "properties": {
+        "step_order": {
+          "description": "Order of devolution/succession (1, 2, 3...)",
+          "title": "Step Order",
+          "type": "integer"
+        },
+        "from_person_id": {
+          "description": "Deceased predecessor person ID",
+          "title": "From Person Id",
+          "type": "string"
+        },
+        "to_person_ids": {
+          "description": "Successor/heir person IDs entitled under stated custom or law",
+          "items": {
+            "type": "string"
+          },
+          "title": "To Person Ids",
+          "type": "array"
+        },
+        "basis_of_succession": {
+          "description": "Customary inheritance, coparcenary share, oral partition, or testamentary will",
+          "title": "Basis Of Succession",
+          "type": "string"
+        },
+        "approximate_year_or_era": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Date marker or landmark event (e.g. '1982 Chakbandi', '2004')",
+          "title": "Approximate Year Or Era"
+        },
+        "contested": {
+          "default": false,
+          "description": "Whether this succession step is disputed or accepted by all branches",
+          "title": "Contested",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "step_order",
+        "from_person_id",
+        "to_person_ids",
+        "basis_of_succession"
+      ],
+      "title": "SuccessionStep",
+      "type": "object"
+    },
+    "VanshavaliTree": {
+      "properties": {
+        "ancestral_head": {
+          "$ref": "#/$defs/PersonNode",
+          "description": "Root ancestor / original titleholder of the property"
+        },
+        "members": {
+          "description": "All named individuals identified in the lineage",
+          "items": {
+            "$ref": "#/$defs/PersonNode"
+          },
+          "title": "Members",
+          "type": "array"
+        },
+        "relationships": {
+          "description": "Kinship edges linking family members",
+          "items": {
+            "$ref": "#/$defs/RelationshipEdge"
+          },
+          "title": "Relationships",
+          "type": "array"
+        }
+      },
+      "required": [
+        "ancestral_head",
+        "members",
+        "relationships"
+      ],
+      "title": "VanshavaliTree",
+      "type": "object"
+    }
+  },
+  "properties": {
+    "schema_version": {
+      "default": "1.0.0",
+      "description": "Schema specification version",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "testimony_metadata": {
+      "additionalProperties": true,
+      "description": "Metadata regarding audio input, duration, language, and STT model",
+      "title": "Testimony Metadata",
+      "type": "object"
+    },
+    "verbatim_transcript": {
+      "description": "Full verbatim transcript returned by Saaras speech-to-text",
+      "title": "Verbatim Transcript",
+      "type": "string"
+    },
+    "summary_of_statement": {
+      "description": "High-level summary of claimant's oral testimony",
+      "title": "Summary Of Statement",
+      "type": "string"
+    },
+    "vanshavali": {
+      "$ref": "#/$defs/VanshavaliTree",
+      "description": "Reconstructed family tree hierarchy and kinship graph"
+    },
+    "stated_succession_order": {
+      "description": "Stated generational succession and inheritance progression",
+      "items": {
+        "$ref": "#/$defs/SuccessionStep"
+      },
+      "title": "Stated Succession Order",
+      "type": "array"
+    },
+    "property_grievance": {
+      "$ref": "#/$defs/PropertyGrievance",
+      "description": "The specific property claim and grievance alleged"
+    },
+    "chronological_timeline": {
+      "description": "Chronological timeline of landmark family events",
+      "items": {
+        "$ref": "#/$defs/ChronologicalEvent"
+      },
+      "title": "Chronological Timeline",
+      "type": "array"
+    }
+  },
+  "required": [
+    "verbatim_transcript",
+    "summary_of_statement",
+    "vanshavali",
+    "stated_succession_order",
+    "property_grievance"
+  ],
+  "title": "OralTestimonyNormalizedSchema",
+  "type": "object"
+}

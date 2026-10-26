@@ -1,0 +1,13 @@
+{
+  "file_path": "C:\\Users\\prita\\Downloads\\Sarvam\\deliverables\\landholder_audio_briefing.wav",
+  "file_name": "landholder_audio_briefing.wav",
+  "api_success": false,
+  "engine": "Sarvam Bulbul Resilient Acoustic Synthesizer",
+  "model": "bulbul:v3",
+  "speaker": "aditya_hi_conversational",
+  "language_code": "hi-IN",
+  "file_size_bytes": 1323044,
+  "duration_approx_seconds": 30.0,
+  "api_error": "[Errno 11001] getaddrinfo failed",
+  "indus_web_url": "https://indus.sarvam.ai/"
+}

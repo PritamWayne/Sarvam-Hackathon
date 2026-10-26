@@ -1,0 +1,284 @@
+{
+  "schema_version": "1.0.0",
+  "testimony_metadata": {
+    "source": "sample_dialect_testimony",
+    "language_code": "hi-IN",
+    "model": "saaras:v4"
+  },
+  "verbatim_transcript": "हमर नाम हरिशंकर मिश्रा ह। हमार बाबा स्वर्गीय रामेश्वर मिश्रा के पास मौजा चक-गोविंदपुर में कुल 12 बीघा पुस्तैनी जमीन रहल। बाबा के दू गो बेटा रहलन—बड़का बेटा भोलानाथ मिश्रा (हमार पिता) और छोटका बेटा दीनानाथ मिश्रा (हमार चाचा)। रामेश्वर बाबा के देहांत सन् 1984 में भईल। ओकरा बाद 1988 के चकबंदी के समय, दोनों भाई के बीच आपसी सहमति से आधा-आधा (6-6 बीघा) जमीन बाँटल गईल रहल। हमार पिता भोलानाथ मिश्रा जी के देहांत 2008 में भईल। हमनी के तीन भाई बानी जा—हम हरishankar, मझिला भाई उमाशंकर, और छोटका रविशंकर। हमरे चाचा दीनानाथ जी के एक बेटा बाड़े, कमलेश मिश्रा। जब 2012 में चकबंदी रिकॉर्ड के डिजिटल खतौनी बनल, तब चाचा के लड़का कमलेश हमनी के गैर-हाजिरी में, हल्का पटवारी से मिलीभगत करके, पिता जी के 6 बीघा में से 4 बीघा (खासकर खसरा संख्या 142 और 143, जो पक्की सड़क के किनारे बा) फर्जी वरासत (विरासत नामा) बनवा के अपने नाम पर खारिज-दाखिल करवा लिहलसि। जब हम 2021 में चकबंदी दफ्तर गईनी त पता चलल कि हमार और हमार भाई लोग के नाम खतौनी से गायब बा। हमार चाचा दीनानाथ भी 2019 में गुजर गईलन। अब कमलेश कहत बा कि जमीन ओकर बाप के निजी कमाई रहल। हमार मांग बा कि फर्जी दाखिल-खारिज रद्द होखे और रामेश्वर बाबा के वंशावली के अनुसार हमार पिता के 6 बीघा हिस्सेदारी तीनों भाई (हरिशंकर, उमाशंकर, रविशंकर) के नाम पर दर्ज कइल जाव।",
+  "summary_of_statement": "Claimant Harishankar Mishra alleges that following the death of his father Bholanath Mishra, his cousin Kamlesh Mishra fraudulently mutated 4 Bighas (Khasra 142 & 143) of prime roadside ancestral land in Mauza Chak-Govindpur into his own name in collusion with the Patwari in 2012, depriving the claimant and his two brothers of their legitimate 6-Bigha branch inheritance.",
+  "vanshavali": {
+    "ancestral_head": {
+      "person_id": "P01",
+      "name": "Rameshwar Mishra",
+      "aliases": [
+        "रामेश्वर मिश्रा",
+        "Rameshwar Baba"
+      ],
+      "gender": "male",
+      "status": "deceased",
+      "generation_level": 0,
+      "date_marker": "d. 1984",
+      "is_claimant": false,
+      "is_ancestral_head": true
+    },
+    "members": [
+      {
+        "person_id": "P01",
+        "name": "Rameshwar Mishra",
+        "aliases": [
+          "रामेश्वर मिश्रा",
+          "Rameshwar Baba"
+        ],
+        "gender": "male",
+        "status": "deceased",
+        "generation_level": 0,
+        "date_marker": "d. 1984",
+        "is_claimant": false,
+        "is_ancestral_head": true
+      },
+      {
+        "person_id": "P02",
+        "name": "Bholanath Mishra",
+        "aliases": [
+          "भोलानाथ मिश्रा",
+          "Barka Beta"
+        ],
+        "gender": "male",
+        "status": "deceased",
+        "generation_level": 1,
+        "date_marker": "d. 2008",
+        "is_claimant": false,
+        "is_ancestral_head": false
+      },
+      {
+        "person_id": "P03",
+        "name": "Dinanath Mishra",
+        "aliases": [
+          "दीनानाथ मिश्रा",
+          "Chhotka Chacha"
+        ],
+        "gender": "male",
+        "status": "deceased",
+        "generation_level": 1,
+        "date_marker": "d. 2019",
+        "is_claimant": false,
+        "is_ancestral_head": false
+      },
+      {
+        "person_id": "P04",
+        "name": "Harishankar Mishra",
+        "aliases": [
+          "हरिशंकर मिश्रा"
+        ],
+        "gender": "male",
+        "status": "alive",
+        "generation_level": 2,
+        "date_marker": "Active claimant",
+        "is_claimant": true,
+        "is_ancestral_head": false
+      },
+      {
+        "person_id": "P05",
+        "name": "Umashankar Mishra",
+        "aliases": [
+          "उमाशंकर मिश्रा",
+          "Majhila Bhai"
+        ],
+        "gender": "male",
+        "status": "alive",
+        "generation_level": 2,
+        "date_marker": null,
+        "is_claimant": false,
+        "is_ancestral_head": false
+      },
+      {
+        "person_id": "P06",
+        "name": "Ravishankar Mishra",
+        "aliases": [
+          "रविशंकर मिश्रा",
+          "Chhotka Bhai"
+        ],
+        "gender": "male",
+        "status": "alive",
+        "generation_level": 2,
+        "date_marker": null,
+        "is_claimant": false,
+        "is_ancestral_head": false
+      },
+      {
+        "person_id": "P07",
+        "name": "Kamlesh Mishra",
+        "aliases": [
+          "कमलेश मिश्रा"
+        ],
+        "gender": "male",
+        "status": "alive",
+        "generation_level": 2,
+        "date_marker": null,
+        "is_claimant": false,
+        "is_ancestral_head": false
+      }
+    ],
+    "relationships": [
+      {
+        "source_id": "P01",
+        "target_id": "P02",
+        "relation_type": "parent_of",
+        "notes": "Eldest son (बड़का बेटा)"
+      },
+      {
+        "source_id": "P01",
+        "target_id": "P03",
+        "relation_type": "parent_of",
+        "notes": "Younger son (छोटका बेटा)"
+      },
+      {
+        "source_id": "P02",
+        "target_id": "P03",
+        "relation_type": "sibling_of",
+        "notes": "Brothers"
+      },
+      {
+        "source_id": "P02",
+        "target_id": "P04",
+        "relation_type": "parent_of",
+        "notes": "Eldest son / Claimant"
+      },
+      {
+        "source_id": "P02",
+        "target_id": "P05",
+        "relation_type": "parent_of",
+        "notes": "Second son (मझिला)"
+      },
+      {
+        "source_id": "P02",
+        "target_id": "P06",
+        "relation_type": "parent_of",
+        "notes": "Youngest son (छोटका)"
+      },
+      {
+        "source_id": "P04",
+        "target_id": "P05",
+        "relation_type": "sibling_of",
+        "notes": "Brothers"
+      },
+      {
+        "source_id": "P05",
+        "target_id": "P06",
+        "relation_type": "sibling_of",
+        "notes": "Brothers"
+      },
+      {
+        "source_id": "P03",
+        "target_id": "P07",
+        "relation_type": "parent_of",
+        "notes": "Only son (Respondent)"
+      }
+    ]
+  },
+  "stated_succession_order": [
+    {
+      "step_order": 1,
+      "from_person_id": "P01",
+      "to_person_ids": [
+        "P02",
+        "P03"
+      ],
+      "basis_of_succession": "Equal customary ancestral partition (Batwara) following demise of ancestor",
+      "approximate_year_or_era": "1984 - 1988 (Chakbandi consolidation)",
+      "contested": false
+    },
+    {
+      "step_order": 2,
+      "from_person_id": "P02",
+      "to_person_ids": [
+        "P04",
+        "P05",
+        "P06"
+      ],
+      "basis_of_succession": "Coparcenary inheritance of 6 Bighas amongst three sons",
+      "approximate_year_or_era": "2008 (upon demise of Bholanath Mishra)",
+      "contested": true
+    },
+    {
+      "step_order": 3,
+      "from_person_id": "P03",
+      "to_person_ids": [
+        "P07"
+      ],
+      "basis_of_succession": "Inheritance of Dinanath's rightful 6 Bigha share",
+      "approximate_year_or_era": "2019",
+      "contested": false
+    }
+  ],
+  "property_grievance": {
+    "disputed_asset_description": "4 Bighas of roadside prime agricultural land out of 6 Bighas ancestral share, specifically Khasra Nos. 142 and 143",
+    "location_details": "Mauza Chak-Govindpur",
+    "claimed_share": "6 Bighas total for Bholanath's branch (2 Bighas each for Harishankar, Umashankar, and Ravishankar)",
+    "adverse_party_ids": [
+      "P07"
+    ],
+    "allegation_category": "fraudulent_mutation",
+    "grievance_narrative": "In 2012 during digitization of consolidation (Chakbandi) records, cousin Kamlesh Mishra (son of Dinanath) colluded with local revenue officials (Halka Patwari) to execute a fraudulent succession mutation (Farzi Virasat/Dakhil-Kharij), illicitly mutating 4 Bighas belonging to Bholanath's heirs under Khasra Nos. 142 & 143 into his sole name, thereby extinguishing claimant's branch names from Khatauni.",
+    "relief_sought": "Cancellation of fraudulent mutation (Dakhil-Kharij raddikaran) in favor of Kamlesh Mishra, and restoration/recordation of the full 6 Bigha share under the names of Harishankar Mishra, Umashankar Mishra, and Ravishankar Mishra in the revenue Khatauni as per Rameshwar Mishra's Vanshavali."
+  },
+  "chronological_timeline": [
+    {
+      "event_order": 1,
+      "temporal_anchor": "1984",
+      "description": "Demise of common ancestor Rameshwar Mishra leaving 12 Bighas of ancestral property.",
+      "actors_involved": [
+        "Rameshwar Mishra",
+        "Bholanath Mishra",
+        "Dinanath Mishra"
+      ]
+    },
+    {
+      "event_order": 2,
+      "temporal_anchor": "1988",
+      "description": "Land consolidation (Chakbandi) mutual partition dividing 12 Bighas equally (6 Bighas each) between brothers Bholanath and Dinanath.",
+      "actors_involved": [
+        "Bholanath Mishra",
+        "Dinanath Mishra"
+      ]
+    },
+    {
+      "event_order": 3,
+      "temporal_anchor": "2008",
+      "description": "Demise of Bholanath Mishra, leaving three sons (Harishankar, Umashankar, Ravishankar) entitled to his 6 Bighas.",
+      "actors_involved": [
+        "Bholanath Mishra",
+        "Harishankar Mishra",
+        "Umashankar Mishra",
+        "Ravishankar Mishra"
+      ]
+    },
+    {
+      "event_order": 4,
+      "temporal_anchor": "2012",
+      "description": "Fraudulent revenue entry and mutation orchestrated by Kamlesh Mishra with Patwari during digital record preparation.",
+      "actors_involved": [
+        "Kamlesh Mishra",
+        "Halka Patwari"
+      ]
+    },
+    {
+      "event_order": 5,
+      "temporal_anchor": "2019",
+      "description": "Demise of Dinanath Mishra.",
+      "actors_involved": [
+        "Dinanath Mishra"
+      ]
+    },
+    {
+      "event_order": 6,
+      "temporal_anchor": "2021",
+      "description": "Claimant visits Chakbandi office, discovers names deleted from Khatauni, initiates legal grievance.",
+      "actors_involved": [
+        "Harishankar Mishra",
+        "Kamlesh Mishra"
+      ]
+    }
+  ]
+}

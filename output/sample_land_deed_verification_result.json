@@ -1,0 +1,449 @@
+{
+  "document_verification_summary": {
+    "document_name": "sample_land_deed.png",
+    "document_type": "Khatauni (अधिकार अभिलेख - उत्तर प्रदेश राजस्व परिषद)",
+    "processed_at": "2026-10-26T17:06:40.623287+00:00",
+    "authenticity_status": "VERIFIED",
+    "mandatory_stamps_present": true,
+    "signatures_present": true,
+    "kaifiyat_present": true,
+    "confidence_scores": {
+      "stamps_confidence": 0.88,
+      "signatures_confidence": 0.95,
+      "overall_authenticity": 1.0
+    },
+    "verification_notes": [
+      "Official revenue seals validated with characteristic violet/red stamp ink profile.",
+      "Tehsildar and Patwari cursive attestation signatures verified in signing zone.",
+      "Kaifiyat (Marginal Remarks) column contains recorded mutation/court remarks."
+    ]
+  },
+  "visual_authenticity_markers": {
+    "mandatory_stamps_present": true,
+    "signatures_present": true,
+    "kaifiyat_present": true,
+    "authenticity_status": "VERIFIED",
+    "authenticity_score": 1.0,
+    "revenue_stamps": [
+      {
+        "id": "stamp_1",
+        "type": "revenue_stamp",
+        "bounding_box": {
+          "x": 1388,
+          "y": 1985,
+          "width": 333,
+          "height": 226
+        },
+        "confidence": 0.81,
+        "label": "Official Revenue Seal / Stamp (मुहर)",
+        "details": {
+          "ink_profile": "violet_purple",
+          "circularity": 0.259,
+          "contour_area_px": 33093,
+          "aspect_ratio": 1.47
+        }
+      },
+      {
+        "id": "stamp_paper_header",
+        "type": "stamp_paper_header",
+        "bounding_box": {
+          "x": 0,
+          "y": 0,
+          "width": 1883,
+          "height": 369
+        },
+        "confidence": 0.88,
+        "label": "Official Revenue Stamp Paper Header (ई-स्टाम्प / भारत सरकार)",
+        "details": {
+          "edge_density": 0.058
+        }
+      }
+    ],
+    "signatures": [
+      {
+        "id": "signature_1",
+        "type": "signature",
+        "bounding_box": {
+          "x": 182,
+          "y": 1963,
+          "width": 145,
+          "height": 30
+        },
+        "confidence": 0.89,
+        "label": "Patwari / Lekhpal Signature (ह० लेखपाल/पटवारी)",
+        "details": {
+          "detection_path": "blue_pen_ink",
+          "aspect_ratio": 4.83,
+          "zone": "bottom_zone"
+        }
+      },
+      {
+        "id": "signature_2",
+        "type": "signature",
+        "bounding_box": {
+          "x": 1377,
+          "y": 1962,
+          "width": 356,
+          "height": 110
+        },
+        "confidence": 0.95,
+        "label": "Tehsildar / Revenue Officer Signature (ह० तहसीलदार)",
+        "details": {
+          "detection_path": "blue_pen_ink",
+          "aspect_ratio": 3.24,
+          "zone": "bottom_zone"
+        }
+      },
+      {
+        "id": "signature_4",
+        "type": "signature",
+        "bounding_box": {
+          "x": 167,
+          "y": 1957,
+          "width": 317,
+          "height": 115
+        },
+        "confidence": 0.95,
+        "label": "Patwari / Lekhpal Signature (ह० लेखपाल/पटवारी)",
+        "details": {
+          "detection_path": "blue_pen_ink",
+          "aspect_ratio": 2.76,
+          "zone": "bottom_zone"
+        }
+      },
+      {
+        "id": "signature_5",
+        "type": "signature",
+        "bounding_box": {
+          "x": 1301,
+          "y": 1733,
+          "width": 167,
+          "height": 56
+        },
+        "confidence": 0.9,
+        "label": "Tehsildar / Revenue Officer Signature (ह० तहसीलदार)",
+        "details": {
+          "detection_path": "blue_pen_ink",
+          "aspect_ratio": 2.98,
+          "zone": "bottom_zone"
+        }
+      },
+      {
+        "id": "signature_6",
+        "type": "signature",
+        "bounding_box": {
+          "x": 1630,
+          "y": 1721,
+          "width": 163,
+          "height": 69
+        },
+        "confidence": 0.9,
+        "label": "Tehsildar / Revenue Officer Signature (ह० तहसीलदार)",
+        "details": {
+          "detection_path": "blue_pen_ink",
+          "aspect_ratio": 2.36,
+          "zone": "bottom_zone"
+        }
+      },
+      {
+        "id": "signature_7",
+        "type": "signature",
+        "bounding_box": {
+          "x": 988,
+          "y": 1680,
+          "width": 228,
+          "height": 108
+        },
+        "confidence": 0.92,
+        "label": "Tehsildar / Revenue Officer Signature (ह० तहसीलदार)",
+        "details": {
+          "detection_path": "blue_pen_ink",
+          "aspect_ratio": 2.11,
+          "zone": "bottom_zone"
+        }
+      },
+      {
+        "id": "signature_8",
+        "type": "signature",
+        "bounding_box": {
+          "x": 381,
+          "y": 1672,
+          "width": 153,
+          "height": 114
+        },
+        "confidence": 0.89,
+        "label": "Patwari / Lekhpal Signature (ह० लेखपाल/पटवारी)",
+        "details": {
+          "detection_path": "blue_pen_ink",
+          "aspect_ratio": 1.34,
+          "zone": "bottom_zone"
+        }
+      },
+      {
+        "id": "signature_9",
+        "type": "signature",
+        "bounding_box": {
+          "x": 93,
+          "y": 778,
+          "width": 257,
+          "height": 40
+        },
+        "confidence": 0.88,
+        "label": "Attestation Signature (हस्ताक्षर तस्दीक)",
+        "details": {
+          "detection_path": "blue_pen_ink",
+          "aspect_ratio": 6.42,
+          "zone": "margin_zone"
+        }
+      },
+      {
+        "id": "signature_10",
+        "type": "signature",
+        "bounding_box": {
+          "x": 93,
+          "y": 611,
+          "width": 286,
+          "height": 162
+        },
+        "confidence": 0.89,
+        "label": "Attestation Signature (हस्ताक्षर तस्दीक)",
+        "details": {
+          "detection_path": "blue_pen_ink",
+          "aspect_ratio": 1.77,
+          "zone": "margin_zone"
+        }
+      },
+      {
+        "id": "signature_11",
+        "type": "signature",
+        "bounding_box": {
+          "x": 337,
+          "y": 494,
+          "width": 173,
+          "height": 66
+        },
+        "confidence": 0.85,
+        "label": "Attestation Signature (हस्ताक्षर तस्दीक)",
+        "details": {
+          "detection_path": "blue_pen_ink",
+          "aspect_ratio": 2.62,
+          "zone": "margin_zone"
+        }
+      },
+      {
+        "id": "signature_12",
+        "type": "signature",
+        "bounding_box": {
+          "x": 94,
+          "y": 484,
+          "width": 304,
+          "height": 116
+        },
+        "confidence": 0.9,
+        "label": "Attestation Signature (हस्ताक्षर तस्दीक)",
+        "details": {
+          "detection_path": "blue_pen_ink",
+          "aspect_ratio": 2.62,
+          "zone": "margin_zone"
+        }
+      },
+      {
+        "id": "signature_13",
+        "type": "signature",
+        "bounding_box": {
+          "x": 1632,
+          "y": 463,
+          "width": 165,
+          "height": 48
+        },
+        "confidence": 0.85,
+        "label": "Attestation Signature (हस्ताक्षर तस्दीक)",
+        "details": {
+          "detection_path": "blue_pen_ink",
+          "aspect_ratio": 3.44,
+          "zone": "margin_zone"
+        }
+      },
+      {
+        "id": "signature_14",
+        "type": "signature",
+        "bounding_box": {
+          "x": 94,
+          "y": 404,
+          "width": 121,
+          "height": 32
+        },
+        "confidence": 0.83,
+        "label": "Attestation Signature (हस्ताक्षर तस्दीक)",
+        "details": {
+          "detection_path": "blue_pen_ink",
+          "aspect_ratio": 3.78,
+          "zone": "margin_zone"
+        }
+      },
+      {
+        "id": "signature_15",
+        "type": "signature",
+        "bounding_box": {
+          "x": 116,
+          "y": 347,
+          "width": 107,
+          "height": 33
+        },
+        "confidence": 0.82,
+        "label": "Attestation Signature (हस्ताक्षर तस्दीक)",
+        "details": {
+          "detection_path": "blue_pen_ink",
+          "aspect_ratio": 3.24,
+          "zone": "margin_zone"
+        }
+      },
+      {
+        "id": "signature_16",
+        "type": "signature",
+        "bounding_box": {
+          "x": 269,
+          "y": 264,
+          "width": 170,
+          "height": 30
+        },
+        "confidence": 0.85,
+        "label": "Attestation Signature (हस्ताक्षर तस्दीक)",
+        "details": {
+          "detection_path": "blue_pen_ink",
+          "aspect_ratio": 5.67,
+          "zone": "margin_zone"
+        }
+      },
+      {
+        "id": "signature_17",
+        "type": "signature",
+        "bounding_box": {
+          "x": 1611,
+          "y": 136,
+          "width": 111,
+          "height": 30
+        },
+        "confidence": 0.82,
+        "label": "Attestation Signature (हस्ताक्षर तस्दीक)",
+        "details": {
+          "detection_path": "blue_pen_ink",
+          "aspect_ratio": 3.7,
+          "zone": "margin_zone"
+        }
+      },
+      {
+        "id": "signature_18",
+        "type": "signature",
+        "bounding_box": {
+          "x": 1385,
+          "y": 125,
+          "width": 413,
+          "height": 55
+        },
+        "confidence": 0.9,
+        "label": "Attestation Signature (हस्ताक्षर तस्दीक)",
+        "details": {
+          "detection_path": "blue_pen_ink",
+          "aspect_ratio": 7.51,
+          "zone": "margin_zone"
+        }
+      },
+      {
+        "id": "signature_19",
+        "type": "signature",
+        "bounding_box": {
+          "x": 1486,
+          "y": 105,
+          "width": 216,
+          "height": 30
+        },
+        "confidence": 0.87,
+        "label": "Attestation Signature (हस्ताक्षर तस्दीक)",
+        "details": {
+          "detection_path": "blue_pen_ink",
+          "aspect_ratio": 7.2,
+          "zone": "margin_zone"
+        }
+      }
+    ],
+    "marginal_remarks": [
+      {
+        "id": "kaifiyat_left_margin",
+        "type": "marginal_remark",
+        "bounding_box": {
+          "x": 0,
+          "y": 344,
+          "width": 301,
+          "height": 1625
+        },
+        "confidence": 0.92,
+        "label": "Marginal Remarks / Kaifiyat Column (कैफियत स्तम्भ)",
+        "details": {
+          "ink_density": 0.07801073345259392,
+          "location": "left_column",
+          "has_content": true
+        }
+      }
+    ]
+  },
+  "parsed_deed_metadata": {
+    "deed_type": "Khatauni (अधिकार अभिलेख - उत्तर प्रदेश राजस्व परिषद)",
+    "deed_number": "UP-REV/2024/99201",
+    "execution_date": "15/10/2024",
+    "registration_date": "16/08/2024",
+    "sub_registrar_office": "कार्यालय उप-निबंधक / न्यायालय तहसीलदार, मवाना (मेरठ)",
+    "geographic_jurisdiction": {
+      "state": "Uttar Pradesh (उत्तर प्रदेश)",
+      "district": "Meerut (मेरठ)",
+      "tehsil": "Mawana (मवाना)",
+      "pargana": "Hastinapur (हस्तिनापुर)",
+      "village_mauza": "Khaspur (खासपुर - कोड 11842)",
+      "patwar_circle": "Circle No. 4"
+    },
+    "land_parcel_details": {
+      "khasra_numbers": [
+        "154/1",
+        "154/2",
+        "156"
+      ],
+      "khata_number": "00184",
+      "khatoni_number": "142-F",
+      "plot_area": {
+        "stated_value": 3.75,
+        "stated_unit": "Bigha",
+        "standardized_sq_meters": 9484.8,
+        "standardized_hectares": 0.9485
+      },
+      "land_type": "Agricultural / संक्रमणीय भूमिधर",
+      "boundaries": {
+        "North": "Chak Road / चक मार्ग",
+        "South": "Khasra No. 249 (Rameshwar)",
+        "East": "Canal / रजवाहा",
+        "West": "Khasra No. 244 (Gram Samaj)"
+      }
+    },
+    "marginal_remarks_kaifiyat_text": "कैफियत स्तम्भ: आदेश दि० 12.09.2024 न्यायालय तहसीलदार, मवाना द्वारा बैनामा सं० 4321/2024 के आधार पर नामांतरण स्वीकार हुआ।"
+  },
+  "ownership_shares": [
+    {
+      "holder_name": "सुरेश कुमार (Suresh Kumar)",
+      "relation_type": "Father/Husband",
+      "relation_name": "स्व० रामस्वरूप",
+      "share_fraction": "1/2",
+      "share_percentage": 50.0,
+      "allocated_area": "1.875 Bigha",
+      "status": "Sankramaniya Bhumidhar (संक्रमणीय भूमिधर)"
+    },
+    {
+      "holder_name": "महेश कुमार (Mahesh Kumar)",
+      "relation_type": "Father/Husband",
+      "relation_name": "स्व० रामस्वरूप",
+      "share_fraction": "1/2",
+      "share_percentage": 50.0,
+      "allocated_area": "1.875 Bigha",
+      "status": "Sankramaniya Bhumidhar (संक्रमणीय भूमिधर)"
+    }
+  ],
+  "raw_extracted_text_preview": "कैफियत स्तम्भ: आदेश दि० 12.09.2024 न्यायालय तहसीलदार, मवाना द्वारा बैनामा सं० 4321/2024 के आधार पर नामांतरण स्वीकार हुआ।"
+}

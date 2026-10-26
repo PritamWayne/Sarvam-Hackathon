@@ -1,7 +1,13 @@
-# Land Deed Ingestion & Document Verification (Step 1)
-### Built with Sarvam AI Document Intelligence (`sarvam-vision` / Doc-AI)
+# 🇮🇳 Sarvam Bhoomi Praman (सर्वम भूमि प्रमाण)
+### Indic Land Records Intelligence & Legal Title Audit Platform
+**Built with Sarvam AI Document Intelligence (`sarvam-vision` / Doc-AI, `sarvam-105b`, `bulbul`, `saaras`)**
 
-An end-to-end pipeline to extract raw text, tabular ownership data, and visual authenticity markers from scanned Indian land deeds (Khatauni, Khasra, Jamabandi, Sale Deeds / बैनामा, Patta).
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://sarvam-bhoomi-praman.streamlit.app/)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-blue.svg)](https://github.com/PritamWayne/Sarvam-Hackathon)
+
+> 🌐 **Live Web Application**: [https://sarvam-bhoomi-praman.streamlit.app/](https://sarvam-bhoomi-praman.streamlit.app/)
+
+An end-to-end sovereign Indian AI platform to extract raw text, tabular ownership data, visual authenticity markers from scanned Indian land deeds (Khatauni, Khasra, Jamabandi, Sale Deeds / बैनामा, Patta), resolve regional measurement units, cross-validate oral testimonies and genealogy against Hindu Succession Act (HSA 1956/2005) & UP-ZALR/Revenue Codes, and generate court-ready legal objection petitions and audio briefings.
 
 ---
 
@@ -61,14 +67,23 @@ python main.py
 python pipeline.py --input path/to/land_deed.pdf --output result.json
 ```
 
-### 4. Launch Interactive Web Dashboard
-```bash
-python web_dashboard.py
-```
-Open **[http://127.0.0.1:8080](http://127.0.0.1:8080)** in your browser to inspect:
-- Side-by-side original vs deskewed/enhanced scans
-- Visual bounding boxes for stamps (green), signatures (blue), and Kaifiyat (amber)
-- Parsed tabular ownership table and full JSON viewer.
+### 4. Interactive Web Application & Dashboard
+
+- **🌐 Live Hosted Cloud Version**: [https://sarvam-bhoomi-praman.streamlit.app/](https://sarvam-bhoomi-praman.streamlit.app/)
+
+- **Local Streamlit Application**:
+  ```bash
+  streamlit run app.py
+  ```
+
+- **Local Fast View Dashboard**:
+  ```bash
+  python web_dashboard.py
+  ```
+  Open **[http://127.0.0.1:8080](http://127.0.0.1:8080)** in your browser to inspect:
+  - Side-by-side original vs deskewed/enhanced scans
+  - Visual bounding boxes for stamps (green), signatures (blue), and Kaifiyat (amber)
+  - Parsed tabular ownership table and full JSON viewer.
 
 ---
 
